@@ -30,6 +30,7 @@
   cursor: pointer;
   color: #fff;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .navbar ul li {
@@ -113,4 +114,42 @@ button:hover span {
 
 button:hover {
   border: none;
+}
+
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+/* ========= About/welcome ========= */
+.about__container {
+  position: relative;
+  row-gap: 2rem;
+  text-align: initial;
+  padding: 20px;
+  display: grid;
+
+  justify-content: space-between;
+}
+
+.about__text {
+  width: 500px;
+}
+
+.about__img {
+  justify-self: initial;
+}
+
+.about__img img {
+  width: 500px;
+}
+.about__side {
+  width: 400px;
+  height: 500px;
+  background-color: #e44235;
 }

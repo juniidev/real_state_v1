@@ -11,9 +11,13 @@
 </head>
 
 <body>
-    <div class="banner">
+    <!-- Header -->
+    <header class="banner">
         <div class="navbar">
-            <h1 class="logo">inHouse</h1>
+            <div>
+                <a href="#home" class="logo"> inHome</a>
+            </div>
+
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Bedroom</a></li>
@@ -23,17 +27,48 @@
             </ul>
         </div>
 
-        <div class="content">
-            <h1>DESIGN YOUR HOUSE</h1>
-            <p> You bring the ideas and we make them come true. </p>
+    </header>
 
-            <div>
-                <button type="button" class="button"> <span></span> WATCH MORE </button>
-                <button type="button" class="button"> <span></span> SUBSCRIBE </button>
+    <main class="l-main">
+        <!-- Home -->
+        <section class="homr bd-grid" id="home">
+            <div class="home__data">
+                <div class="content">
+                    <h1>DESIGN YOUR HOUSE</h1>
+                    <p> You bring the ideas and we make them come true. </p>
+
+                    <div>
+                        <button type="button" class="button"> <span></span> WATCH MORE </button>
+                        <button type="button" class="button"> <span></span> SUBSCRIBE </button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-    </div>
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__text">
+                    <h1>WELCOME IN</h1>
+                    <H4>YOUR WORLD</H4>
+                    <P>We help you bring your ideas to reality, together with a team with more than 10 years of
+                        experience in the real state sector.
+                        With more than trained designers and a solid construction team, we will accompany you and make
+                        it a great experience.</P>
+                </div>
+
+                <div class="about__img">
+                    <img src="assets/background.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="about__side">
+                <img src="" alt="">
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>
