@@ -7,6 +7,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
 .banner {
   width: 100%;
   height: 100vh;
@@ -60,7 +69,7 @@
 .navbar ul li:hover ::after {
   width: 100%;
 }
-
+/* Banner */
 .content {
   width: 100%;
   position: absolute;
@@ -72,7 +81,7 @@
 
 .content h1 {
   font-size: 70px;
-  margin-top: 80px;
+  margin-top: 150px;
 }
 
 .content p {
@@ -94,6 +103,7 @@
   position: relative;
   overflow: hidden;
   margin-right: 10px;
+  margin-bottom: 250px;
 }
 
 span {
@@ -116,6 +126,23 @@ button:hover {
   border: none;
 }
 
+.scroll__down {
+  width: 100%;
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.scroll__down a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.scroll__down:hover a {
+  color: #009688;
+}
+
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -127,18 +154,28 @@ button:hover {
 }
 
 /* ========= About/welcome ========= */
+.about {
+  display: flex;
+  justify-content: space-between;
+}
 .about__container {
+  width: 40%;
   position: relative;
   row-gap: 2rem;
   text-align: initial;
   padding: 20px;
-  display: grid;
-
-  justify-content: space-between;
 }
 
 .about__text {
-  width: 500px;
+  width: 100%;
+}
+.about__text h1 {
+  font-size: 35px;
+  color: #181818;
+}
+
+.about__text h4 {
+  color: #717171;
 }
 
 .about__img {
@@ -146,10 +183,16 @@ button:hover {
 }
 
 .about__img img {
-  width: 500px;
+  width: 96%;
 }
 .about__side {
-  width: 400px;
-  height: 500px;
-  background-color: #e44235;
+  width: 60%;
+  padding: 20px;
+  /* background-color: #e44235; */
+}
+
+.side__img img {
+  width: 100%;
+  height: auto;
+  background-size: contain;
 }
