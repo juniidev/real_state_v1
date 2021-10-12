@@ -188,11 +188,43 @@ button:hover {
 .about__side {
   width: 60%;
   padding: 20px;
-  /* background-color: #e44235; */
 }
 
 .side__img img {
   width: 100%;
   height: auto;
   background-size: contain;
+}
+
+/* Explore */
+.explore {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.explore__container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+.explore__container h1 {
+  font-size: 35px;
+  color: #181818;
+}
+
+.explore__container h4 {
+  color: #717171;
+}
+.explore__works {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.work__img img {
+  width: 100%;
+  background-color: #181818;
 }
