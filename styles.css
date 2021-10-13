@@ -228,3 +228,23 @@ button:hover {
   width: 100%;
   background-color: #181818;
 }
+
+/* ===== FOOTER =====*/
+.footer {
+  background-color: #686b6e;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
+}
