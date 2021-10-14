@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Del CSS -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Link De Los Iconos -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>inHome</title>
 </head>
@@ -39,7 +41,7 @@
                     <p> You bring the ideas and we make them come true. </p>
 
                     <div>
-                        <button type="button" class="button"> <span></span> WATCH MORE </button>
+                        <a href="#contact"><button type="button" class="button"> <span></span> CONTACT US </button></a>
                         <a href="#explore"> <button type="button" class="button"> <span></span> EXPLORE </button></a>
                     </div>
 
@@ -128,10 +130,10 @@
             <div class="contact__container bd-grid">
                 <form id="form" class="contact__form" accept-charset="utf-8" action="https://formspree.io/f/xnqlrlyk"
                     method="POST">
-                    <label for="name" class="labels__scroll">Full Name <span class="label__Span">*</span> </label>
+                    <label for="name" class="labels__scroll">Full Name <i class="label__color">*</i> </label>
                     <input name="name" type="text" required placeholder="Full Name" class="contact__input">
 
-                    <label for="email" class="labels__scroll">E-mail <span class="label__Span">*</span> </label>
+                    <label for="email" class="labels__scroll">E-mail <i class="label__color">*</i> </label>
                     <input name="email" type="mail" required placeholder="Email" class="contact__input">
 
                     <label for="message" class="labels__scroll"> Message </label>
@@ -140,7 +142,7 @@
 
                     <button type="submit" class="contact__button"> <span></span> Send Message</button>
 
-                    <input type="submit" value="Send Message " class="contact__button button ">
+                    <!-- <input type="submit" value="Send Message " class="contact__button button "> -->
                 </form>
 
             </div>
@@ -163,7 +165,7 @@
         </div>
         <p>&#169; 2021 copyright all right reserved</p>
     </footer>
-
+    <script src="main.js"></script>
 </body>
 
 </html>

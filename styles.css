@@ -19,6 +19,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.label__color {
+  color: #e44235;
+  font-weight: 600;
+}
+
+label {
+  font-weight: 600;
+}
+
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
