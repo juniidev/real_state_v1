@@ -1,2 +1,2 @@
 # real_state_v1
-Una página web de real state enfocada en casas que se adapten con la naturaleza de Costa Rica
+Sitio web de Real State, que ofrece servicios de venta y diseño de casas en Costa Rica.
