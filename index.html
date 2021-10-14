@@ -13,10 +13,10 @@
 
 <body>
     <!-- Header -->
-    <header class="banner">
-        <div class="navbar">
+    <header class="banner" id="banner">
+        <nav class="navbar">
             <div>
-                <a href="#home" class="logo"> inHome</a>
+                <a href="#banner" class="logo"> inHome</a>
             </div>
 
             <ul>
@@ -26,13 +26,13 @@
                 <li><a href="#">Kitchen</a></li>
                 <li><a href="#">Backyard</a></li>
             </ul>
-        </div>
+        </nav>
 
     </header>
 
     <main class="l-main">
         <!-- Home -->
-        <section class="homr bd-grid" id="home">
+        <section class="homr bd-grid" id="welcome">
             <div class="home__data">
                 <div class="content">
                     <h1>DESIGN YOUR HOUSE</h1>
@@ -40,7 +40,7 @@
 
                     <div>
                         <button type="button" class="button"> <span></span> WATCH MORE </button>
-                        <button type="button" class="button"> <span></span> SUBSCRIBE </button>
+                        <a href="#explore"> <button type="button" class="button"> <span></span> EXPLORE </button></a>
                     </div>
 
                     <div class="scroll__down">
@@ -120,11 +120,38 @@
                 </div>
             </div>
         </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form id="form" class="contact__form" accept-charset="utf-8" action="https://formspree.io/f/xnqlrlyk"
+                    method="POST">
+                    <label for="name" class="labels__scroll">Full Name <span class="label__Span">*</span> </label>
+                    <input name="name" type="text" required placeholder="Full Name" class="contact__input">
+
+                    <label for="email" class="labels__scroll">E-mail <span class="label__Span">*</span> </label>
+                    <input name="email" type="mail" required placeholder="Email" class="contact__input">
+
+                    <label for="message" class="labels__scroll"> Message </label>
+                    <textarea name="message" placeholder="Let´s talk" class="contact__input" id="message" cols="0"
+                        rows="10" class="contact__input"></textarea>
+
+                    <button type="submit" class="contact__button"> <span></span> Send Message</button>
+
+                    <input type="submit" value="Send Message " class="contact__button button ">
+                </form>
+
+            </div>
+        </section>
     </main>
 
     <!-- ====== Footer ====== -->
     <footer class="footer">
-        <p class="footer__title"> inHome </p>
+        <a href="#banner">
+            <p class="footer__title"> inHome </p>
+        </a>
 
         <div class="footer__social">
             <a href="https://www.behance.net/henrymatarrita" target="_blank" class="footer__icon"><i
